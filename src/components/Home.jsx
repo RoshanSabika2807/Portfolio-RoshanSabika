@@ -2,9 +2,9 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-full min-h-screen flex items-center overflow-x-hidden"
+      className="w-full min-h-screen flex items-center  overflow-x-hidden"
     >
-      <div className="w-full max-w-5xl mx-auto px-6 md:px-12">
+      <div className="w-full px-6 md:px-10">
 
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-bold leading-tight">
