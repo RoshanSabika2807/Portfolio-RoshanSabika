@@ -2,12 +2,12 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-full ml-64 px-10  overflow-x-hidden"
+      className="w-full overflow-x-hidden ml-64 px-10"
     >
-      <div className="w-full max-w-5xl mx-auto px-6 md:px-12">
+      <div className="">
 
         {/* Name */}
-        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+        <h1 className="text-5xl w-full overflow-x-hidden ml-64 px-10">
           I'M <br />
           ROSHAN <br />
           SABIKA A
@@ -16,8 +16,6 @@ function Home() {
         {/* Role */}
         <p className="text-xl md:text-3xl font-semibold mt-6 ">
           Software Developer
-          <br />
-          React & JavaScript Enthusiast
         </p>
 
         {/* Description */}
