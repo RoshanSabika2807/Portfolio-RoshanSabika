@@ -11,10 +11,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {<Sidebar /> }
+      <Sidebar />
 
-      <main className="ml-28 md:ml-64 px-10">
-
+      <main className="w-full overflow-x-hidden px-6 md:px-10">
         <Home />
         <About />
         <Education />
@@ -23,7 +22,6 @@ function App() {
         <Projects />
         <Contact />
         <Footer />
-
       </main>
     </>
   );

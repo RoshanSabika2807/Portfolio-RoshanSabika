@@ -2,34 +2,49 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center"
+      className="w-full min-h-screen flex items-center overflow-x-hidden"
     >
-      <h1 className="text-5xl font-bold">
-        I'M ROSHAN SABIKA A
-      </h1>
+      <div className="w-full max-w-5xl mx-auto px-6 md:px-12">
 
-      <p className="text-xl font-semibold mt-4 text-[#A66A3F]">
-        Frontend Developer | React & JavaScript Enthusiast
-      </p>
+        {/* Name */}
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          I'M <br />
+          ROSHAN <br />
+          SABIKA A
+        </h1>
 
-      <p className="mt-6 max-w-xl">
-        Passionate about creating modern web applications and turning ideas into impactful digital experiences.
-      </p>
+        {/* Role */}
+        <p className="text-xl md:text-3xl font-semibold mt-6 ">
+          Software Developer
+          <br />
+          React & JavaScript Enthusiast
+        </p>
 
-      <div className="flex flex-col gap-4 mt-8 w-52">
-        <a
-          href="#contact"
-          className="bg-[#6F4685] text-white py-3 rounded-lg text-center"
-        >
-          Contact
-        </a>
+        {/* Description */}
+        <p className="mt-6 max-w-2xl text-base md:text-xl leading-relaxed">
+          Passionate about creating modern web applications and turning
+          ideas into impactful digital experiences.
+        </p>
 
-        <a
-          href="#projects"
-          className="bg-[#AE5969] text-white py-3 rounded-lg text-center"
-        >
-          View Projects
-        </a>
+        {/* Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 mt-10">
+
+          <a
+            href="#contact"
+            className="bg-[#6F4685] text-white px-8 py-3 rounded-lg text-center hover:opacity-90 transition"
+          >
+            Contact
+          </a>
+
+          <a
+            href="#projects"
+            className="bg-[#AE5969] text-white px-8 py-3 rounded-lg text-center hover:opacity-90 transition"
+          >
+            View Projects
+          </a>
+
+        </div>
+
       </div>
     </section>
   );

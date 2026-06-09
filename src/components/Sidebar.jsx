@@ -19,7 +19,7 @@ function Sidebar() {
       {/* Hamburger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-5 left-5 z-50 bg-[#5684AE] text-white p-3 rounded-lg shadow-lg"
+        className="fixed top-5 right-5 z-50 bg-[#5684AE] text-white p-3 rounded-lg shadow-lg"
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
