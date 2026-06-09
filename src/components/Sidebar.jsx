@@ -34,8 +34,8 @@ function Sidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-screen w-64 bg-[#5684AE] text-white z-50 transform transition-transform duration-300 ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 right-0 h-screen w-64 bg-[#5684AE] text-white z-50 transform transition-transform duration-300 ${
+          isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
         <ul className="flex flex-col justify-center h-full space-y-8 text-center font-semibold text-lg">
