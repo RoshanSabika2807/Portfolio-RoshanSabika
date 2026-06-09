@@ -34,7 +34,7 @@ function Certificates() {
         whileInView={{ opacity: 1 }}
         viewport={{ amount: 0.2 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl font-bold mb-12"
+        className="text-5xl smfont-bold mb-12"
       >
         Certificates
       </motion.h2>

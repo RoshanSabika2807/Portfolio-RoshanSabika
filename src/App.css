@@ -26,3 +26,30 @@ h1, h2, h3 {
   font-family: var(--heading-font);
 }
 }
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
