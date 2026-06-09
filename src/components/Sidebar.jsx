@@ -1,6 +1,6 @@
 function Sidebar() {
   return (
-    <aside className="fixed left-0 top-0 h-screen w-64 bg-[#5684AE] text-white flex flex-col justify-center">
+    <aside className="fixed left-0 top-0 h-screen w-64 sm:w-28 bg-[#5684AE] text-white flex flex-col justify-center">
       <ul className="space-y-6 text-center font-semibold">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
