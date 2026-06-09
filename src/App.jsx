@@ -9,22 +9,25 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <>
-      <Sidebar />
+return (
+<>
+{<Sidebar /> }
 
-      <main className="w-full overflow-x-hidden ml-64 px-10">
-        <Home />
-        <About />
-        <Education />
-        <Skills />
-        <Certificates />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
-    </>
-  );
+<main className="w-full overflow-x-hidden ml-64 px-10">  
+
+    <Home />  
+    <About />  
+    <Education />  
+    <Skills />  
+    <Certificates />  
+    <Projects />  
+    <Contact />  
+    <Footer />  
+
+  </main>  
+</>
+
+);
 }
 
 export default App;
