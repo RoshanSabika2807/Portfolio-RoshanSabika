@@ -2,7 +2,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-full overflow-x-hidden"
+      className="w-full min-h-screen flex items-center overflow-x-hidden"
     >
       <div className="w-full max-w-5xl mx-auto px-6 md:px-12">
 
@@ -15,9 +15,8 @@ function Home() {
 
         {/* Role */}
         <p className="text-xl md:text-3xl font-semibold mt-6 text-[#A66A3F]">
-          Frontend Developer
-          <br />
-          React & JavaScript Enthusiast
+          Software Developer
+        
         </p>
 
         {/* Description */}
