@@ -13,7 +13,7 @@ function App() {
     <>
       {<Sidebar /> }
 
-      <main className="md:ml-64 px-10">
+      <main className="ml-28 md:ml-64 px-10">
 
         <Home />
         <About />

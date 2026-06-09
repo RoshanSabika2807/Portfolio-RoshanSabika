@@ -1,31 +1,50 @@
+import { FaGithub, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+
 function Contact() {
   return (
     <section id="contact" className="py-20">
 
-      <h2 className="text-4xl font-bold mb-6">
-        Contact 
+      <h2 className="text-4xl font-bold mb-8">
+        Contact
       </h2>
-      
-      <a
-        href="https://github.com/RoshanSabika2807"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block mt-5 bg-[#645394] text-white px-6 py-3 rounded-lg"
-      >
-        GitHub
-      </a>
 
+      <div className="flex flex-col gap-6 text-lg">
 
-      
+        {/* GitHub */}
+        <div className="flex items-center gap-3">
+          <FaGithub size={24} />
+          <a
+            href="https://github.com/RoshanSabika2807"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#645394] text-white px-6 py-3 rounded-lg hover:opacity-90 transition"
+          >
+            GitHub
+          </a>
+        </div>
 
-      
-        Email:{" "}
-        <a href="mailto:roshansabika2807@gmail.com" className="text-blue-600 underline">
-          roshansabika2807@gmail.com
-        </a>
-      
+        {/* Email */}
+        <div className="flex items-center gap-3">
+          <FaEnvelope size={24} />
+          <a
+            href="mailto:roshansabika2807@gmail.com"
+            className="text-blue-400 underline break-all"
+          >
+            roshansabika2807@gmail.com
+          </a>
+        </div>
 
-      <p className="mt-6">
+        {/* Location */}
+        <div className="flex items-center gap-3">
+          <FaMapMarkerAlt size={24} />
+          <span>
+            Pudukkottai, Tamil Nadu, India
+          </span>
+        </div>
+
+      </div>
+
+      <p className="mt-8 text-lg">
         Let's connect and create something meaningful!
       </p>
 
