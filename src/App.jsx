@@ -13,7 +13,7 @@ function App() {
     <>
       <Sidebar />
 
-      <main className="w-full overflow-x-hidden ml-64 px-10">
+      <main className="w-full overflow-x-hidden px-6 md:px-10">
         <Home />
         <About />
         <Education />
