@@ -206,9 +206,9 @@ function Certificates() {
                 <h4 className="font-semibold mb-2">Key Topics</h4>
                 <ul className="list-disc ml-5">
                   <li>React.js</li>
+                  <li>Node.js</li>
                   <li>Component Architecture</li>
                   <li>Responsive UI</li>
-                  <li>Frontend Development</li>
                 </ul>
               </motion.div>
             )}
