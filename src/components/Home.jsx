@@ -2,7 +2,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-full mx:64 px-10 overflow-x-hidden"
+      className="w-full overflow-x-hidden"
     >
       <div className="w-full max-w-5xl mx-auto px-6 md:px-12">
 
