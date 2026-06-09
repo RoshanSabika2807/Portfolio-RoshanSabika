@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #5A7D6E;
+  --secondary: #A66A3F;
+  --accent: #D18F76;
+  --dark: #3C3A36;
+  --light: #F7F5F2;
+
+  /* Fonts */
+  --heading-font: "Aclonica", sans-serif;
+  --body-font: "Adamina", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #003152;
+  color: #FFFFFF;
+  font-family: var(--body-font);
+}
+
+/* 👇 ADD THIS HERE */
+h1, h2, h3 {
+  font-family: var(--heading-font);
+}
