@@ -16,8 +16,6 @@ function Home() {
         {/* Role */}
         <p className="text-xl md:text-3xl font-semibold mt-6 text-[#A66A3F]">
           Frontend Developer
-          <br />
-          React & JavaScript Enthusiast
         </p>
 
         {/* Description */}
